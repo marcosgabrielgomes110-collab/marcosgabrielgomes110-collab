@@ -10,9 +10,9 @@
 
 ---
 
-Software Engineering student at **Unifatecie** (Brazil). I learn by rebuilding hard things
-from scratch — a version control system, a remote shell, a document database, a remote
-desktop. If the interesting part lives inside a dependency, I write the dependency.
+I build systems software from scratch — a version control system, a remote shell, a
+document database, a remote desktop. If the interesting part lives inside a dependency,
+I write the dependency. Software Engineering at Unifatecie, Brazil.
 
 ### 🦀 Flagship — [cvx](https://github.com/marcosgabrielgomes110-collab/cvx)
 
