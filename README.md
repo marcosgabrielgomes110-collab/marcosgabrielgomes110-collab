@@ -17,6 +17,9 @@ delta packs, refs, the index, merges, SHA-256 repositories. It never shells out 
 upstream `git` stays in the test suite as the oracle, so compatibility is measured
 instead of claimed.
 
+- **[Thais](https://github.com/marcosgabrielgomes110-collab/Thais)** — local-first coding
+  agent, in Rust: a plan mode that can only read, a permission gate in front of every tool
+  call and subagent, shadow-Git snapshots that undo a failed mutation, no telemetry.
 - **[rmp](https://github.com/marcosgabrielgomes110-collab/rmp)** — remote shell built on
   QUIC and TLS 1.3, with hybrid X25519 + ML-KEM-768 key exchange and a PTY over streams.
   No `sshd`, no SSH2, no tunneling.
@@ -27,12 +30,16 @@ instead of claimed.
 - **[BridgeDesktop](https://github.com/marcosgabrielgomes110-collab/BridgeDesktop)** —
   peer-to-peer remote desktop: X11 SHM or DXGI capture, H.264, UDP with
   ChaCha20-Poly1305, XOR parity to recover a lost fragment. No relay in the middle.
-- **[vidra](https://github.com/marcosgabrielgomes110-collab/vidra)** — offline dubbing
-  pipeline: fetch, transcribe with Vosk, translate, synthesize with Piper, mux with FFmpeg.
-  Nothing leaves the machine.
+- **[Dubla](https://github.com/marcosgabrielgomes110-collab/Dubla)** — offline dubbing
+  pipeline: fetch, word-level transcription with faster-whisper or Vosk, translation through
+  Argos or any OpenAI-compatible LLM, synthesized voices, every line time-fitted to the
+  original before the mux.
 - **[Apex](https://github.com/marcosgabrielgomes110-collab/Apex)** — zero-dependency DAG
   workflow engine. `@flow` and `@task` decorators, state inferred from the source, small
   enough to finish in one sitting.
+- **[datatask](https://github.com/marcosgabrielgomes110-collab/datatask)** — local job
+  scheduler with a REST API and live logs: JSON jobs on disk, token auth, rate limits,
+  audit trail, TLS or a trusted proxy in front.
 
 ## How I work
 
